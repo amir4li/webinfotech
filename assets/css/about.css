@@ -1,0 +1,49 @@
+
+.about-us {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    color: red;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.mission {
+    flex: 1;
+}
+
+
+.team {
+    flex: 1;
+}
+
+.team h2 {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}

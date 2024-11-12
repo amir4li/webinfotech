@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!-- Header  -->
+     <section class="header">
+        <h1 class="logo text-primary">LOGO</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </section>
+
+    <!-- Slider -->
+    <section class="slider-container py-4 bg-dark">
+    <div class="slider">
+        <div class="slide-list">
+            <div class="slide">
+                <img src="./assets/images/img1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/img2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/img3.jpg" alt="">
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        
+    </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services bg-light py-2">
+        <div class="service-list">
+            <h2 class="m-heading">Our Services</h2>
+            <div class="cards">
+                <div class="card" data-service="service1">
+                    <h3 class="card-heading">Service 1</h3>
+                    <img src="./assets/images/img1.jpg" alt="Service 1">
+                    <p>Short description for Service 1.</p>
+                </div>
+                <div class="card" data-service="service2">
+                    <h3 class="card-heading">Service 2</h3>
+                    <img src="./assets/images/img2.jpg" alt="Service 2">
+                    <p>Short description for Service 2.</p>
+                </div>
+                <div class="card" data-service="service3">
+                    <h3 class="card-heading">Service 3</h3>
+                    <img src="./assets/images/img3.jpg" alt="Service 3">
+                    <p>Short description for Service 3.</p>
+                </div>
+            </div>
+        </div>       
+    </section>
+
+    <!-- Contact  -->
+    <section id="contact" class="contact">
+        <div class="contact-form bg-dark p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Send us a message</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+        <div class="filler">
+            <img class="filler" src="./assets/images/filler.jpg" alt="filler">
+        </div>      
+    </section>
+
+
+    <!-- Footer  -->
+    <footer id="footer-container" class="bg-dark text-center py-1">
+        <div class="footer">
+            <p>copyright &copy; <span id="currentYear"></span>, Trademark, All Rights Reserved</p>
+        </div>       
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
